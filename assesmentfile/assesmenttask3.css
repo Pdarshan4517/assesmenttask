@@ -1,0 +1,721 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* main portion csss is start======================= */
+.header {
+    height: 2300px;
+    width: 100%;
+}
+
+/* the first header portion css is start================= */
+.img {
+    width: 100%;
+    height: 760px;
+    background-image: url(dream-pulse-header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+}
+
+/* the opacity css ==================== */
+.opacity {
+    height: 760px;
+    width: 300px;
+    opacity: 0.300;
+    background-color: black;
+}
+
+/* the logo css is start here=========== */
+.logo {
+    height: 190px;
+    width: 300px;
+    /* position: relative; */
+
+}
+
+.logo1 {
+    height: 150px;
+    width: 200px;
+    border: 2px solid white;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 40px;
+    z-index: -1;
+
+    
+
+}
+.logoindex{
+    height: 150px;
+    width: 200px;
+    border: 2px solid white;
+    z-index: -1;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.logo2 {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.logo3 {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+/* the logo css is finish here======================== */
+
+/* the link css is start here================ */
+.link {
+    height: 380px;
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.link1 a {
+    color: white;
+    font-size: 25px;
+    text-decoration-line: none;
+}
+
+.link2 a {
+    color: white;
+    font-size: 25px;
+    margin-top: 25px;
+    text-decoration-line: none;
+}
+.link2{
+    margin-top: 30px;
+}
+
+.link3 a {
+    color: white;
+    font-size: 25px;
+    text-decoration-line: none;
+    
+}
+
+.link4 a {
+    color: white;
+    font-size: 25px;
+    text-decoration-line: none;
+}
+
+.link5 a{
+    color: white;
+    font-size: 25px;
+    text-decoration-line: none;
+}
+
+/* the link portion css is finish here================] */
+
+/* the font css is start here================= */
+.fontmain {
+    height: 190px;
+    width: 300px;
+}
+
+.font {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.font1 {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin-right: 20px;
+}
+.font1 i{
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.font2 {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+.font2 i{
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.font3 {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin-left: 20px;
+}
+.font3 i{
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.font4 {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin-left: 20px;
+}
+.font4 i{
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.text {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.text1 {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+/* the font css is finish here=================== */
+
+/* the second opacity portion is start here================= */
+.opacity1 {
+    height: 300px;
+    width: 400px;
+    opacity: 0.300;
+    background-color: white;
+    border: 2px solid white;
+    margin-left: 620px;
+    margin-top: 230px;
+}
+
+.introtext {
+    color: blue;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.introdiscription1 {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    width: 80%;
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.introdiscription2 {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    width: 80%;
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+/* opacity second part css is finish==================== */
+
+/* =============================================================================================== */
+
+/* the second section css is start here=============== */
+.second {
+    height: 1500px;
+    width: 100%;
+    display: flex;
+}
+
+.blank {
+    height: 1500px;
+    width: 300px;
+    background-color: darkgray;
+}
+
+.fulfil {
+    height: 1500px;
+    width: 1050px;
+
+}
+
+.compnydetail {
+    height: 350px;
+    width: 1050px;
+    display: flex;
+}
+
+/* about us of compny css is start here========================== */
+.aboutus {
+    height: 350px;
+    width: 525px;
+}
+
+.compnysymbol img {
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+
+.about {
+    color: blue;
+    font-weight: 300;
+    font-size: 25px;
+    /* text-align: center; */
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.diccompny {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    width: 70%;
+    text-align: start;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.diccompny1 {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    width: 70%;
+    text-align: start;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+/* about us of compny css is finish here========================== */
+
+/* compny profile css is start here========================= */
+.compnyprofile {
+    height: 350px;
+    width: 525px;
+
+}
+
+.compnysymbol1 img {
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.profile {
+    color: blue;
+    font-weight: 300;
+    font-size: 25px;
+    /* text-align: center; */
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.dicprofile {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    width: 70%;
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.dicprofile1 {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    width: 70%;
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* compny profile css is finish here==================== */
+
+/* the second section css is finish here========================== */
+/* ======================================================================================================== */
+
+/* the third section css is start here======================================================= */
+.photo {
+    margin-left: 45px;
+}
+
+.square {
+    height: 480px;
+    width: 950px;
+    border: 2px solid gray;
+    z-index: -1;
+    /* background-color: black; */
+    position: relative;
+}
+
+.square1 {
+    height: 480px;
+    width: 950px;
+    border: 2px solid gray;
+    z-index: -1;
+    /* background-color: yellow; */
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.work {
+    color: blue;
+    font-weight: 300;
+    font-size: 25px;
+    /* text-align: center; */
+    margin-left: 60px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    /* position: static; */
+
+}
+
+.img1 img {
+    height: 300px;
+    width: 200px;
+    margin-right: 15px;
+}
+
+.img2 img {
+    height: 300px;
+    width: 200px;
+}
+
+.img3 img {
+    height: 300px;
+    width: 200px;
+    margin-left: 15px;
+}
+
+.img4 img {
+    height: 300px;
+    width: 200px;
+    margin-left: 15px;
+}
+
+.dott {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dott1 {
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: darkgray;
+    margin-right: 10px;
+}
+
+.dott2 {
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: gainsboro;
+}
+
+.dott3 {
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: gainsboro;
+    margin-left: 10px;
+}
+
+/* the third section css is finish here================================= */
+/* ============================================================================================================= */
+/* the fourth section css is start here======================================== */
+
+.clintdetails {
+    height: 350px;
+    width: 1050px;
+    margin-top: 20px;
+}
+
+.clint {
+    height: 150px;
+    width: inherit;
+}
+
+.clinttitle {
+    color: blue;
+    font-weight: 300;
+    font-size: 25px;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+
+.clintbio {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    width: 60%;
+    text-align: start;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.compneysymbol {
+    height: 200px;
+    width: inherit;
+}
+
+.c-logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c-logo1 {
+    height: 80px;
+    width: 170px;
+    border: 1px solid gray;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.c-logo1 img {
+    height: 60px;
+    width: 120px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.c-logo2 {
+    height: 80px;
+    width: 170px;
+    border: 1px solid gray;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.c-logo2 img {
+    height: 60px;
+    width: 120px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.c-logo3 {
+    height: 80px;
+    width: 170px;
+    border: 1px solid gray;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.c-logo3 img {
+    height: 60px;
+    width: 120px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.c-logo4 {
+    height: 80px;
+    width: 170px;
+    border: 1px solid gray;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.c-logo4 img {
+    height: 60px;
+    width: 120px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.c-logo5 {
+    height: 80px;
+    width: 170px;
+    border: 1px solid gray;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.c-logo5 img {
+    height: 60px;
+    width: 120px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.c-logo6 {
+    height: 80px;
+    width: 170px;
+    border: 1px solid gray;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.c-logo6 img {
+    height: 60px;
+    width: 120px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.c-logo7 {
+    height: 80px;
+    width: 170px;
+    border: 1px solid gray;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.c-logo7 img {
+    height: 60px;
+    width: 120px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.c-logo8 {
+    height: 80px;
+    width: 170px;
+    border: 1px solid gray;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.c-logo8 img {
+    height: 60px;
+    width: 120px;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* the fourth section css is finish here=================================== */
+/* =================================================================================================== */
+/* the fifth portion css is finish here======================================== */
+.discusson {
+
+    display: flex;
+}
+
+.z-indexbox {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.talk {
+    height: 250px;
+    width: 400px;
+    /* background-color: yellow; */
+    border: 2px solid gray;
+    z-index: -1;
+    /* background-color: black; */
+    position: relative;
+}
+
+.index {
+    height: 250px;
+    width: 400px;
+    border: 2px solid gray;
+    z-index: -1;
+    /* background-color: black; */
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 10px;
+
+}
+
+.finaltalk {
+    color: blue;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.finaldiscription {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    width: 78%;
+    text-align: start;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.finaldiscription1 {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    width: 60%;
+    text-align: start;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.details {
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+.name input {
+    margin-top: 10px;
+}
+
+.email input {
+    margin-top: 10px;
+}
+
+.message textarea {
+    margin-top: 10px;
+}
+
+.submit button {
+    margin-top: 5px;
+    margin-left: 70%;
+}
