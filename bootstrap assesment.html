@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap assesment</title>
+</head>
+<body>
+    <div class="container">
+       <table>
+        <tr>
+            <td><label for="">From</label></td>
+            <td><input type="date" name="" id="fromdate" ></td>
+        </tr>
+        <tr>
+            <td><label for="">To</label></td>
+            <td><input type="date" name="" id="todates"></td>
+        </tr>
+        <tr>
+            <td><button id="calculatebutton">calculate</button></td>
+        </tr>
+       </table>
+    </div>
+    <div id="years" style="display: none;"></div>
+    <div id="months"style="display: none;"></div>
+    <div id="weeks"style="display: none;"></div>
+    <div id="days"style="display: none;"></div>
+    <div id="fromdateDisplay"style="display: none;"></div>
+    <div id="todateDisplay"style="display: none;"></div>
+
+
+    <script>
+        $(document).ready(function() {
+            $("#calculatebutton").click(function () {
+            var fromdate=new Date($("#fromdate").val());
+            var todate= new Date($("#todate").val());
+
+            var counter=todate-fromdate
+
+            var years=math.floor(counter/(365.25*24*60*1000));
+            var months=math.floor(counter/(365.25*24*60*1000));
+            var weeks=math.floor(counter/(365.25*24*60*1000));
+            var days=math.floor(counter/(365.25*24*60*1000));
+
+            $("#years").text(years);
+            $("#months").text(months);
+            $("#weeks").text(weeks);
+            $("#days").text(days);
+
+            $("#fromdateDisplay").text($("#fromdate").val());
+            $("#todateDisplay").text($("#fromdate").val());
+            })
+        })
+    </script>
+</body>
+</html>
