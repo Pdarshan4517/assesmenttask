@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap assesment</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<style>
+    *{
+        background-color: aqua;
+        color: black;
+    }
+   .main{
+    margin-left: 40%;
+    margin-top: 10%;
+   }
+   #calculateBtn{
+    margin-left: 70px;
+   }
+   p{
+    font-size: x-large;
+   }
+</style>
+<body>
+    <div class="main">
+        <table>
+            <tr>
+                <td><label for="fromDate" style="font-size: x-large;">From Date:</label></td>
+                <td><input type="date" name="" id="fromDate"></td>
+            </tr>
+            <tr>
+                <td><label for="toDate"style="font-size: x-large; ">To Date:</label></td>
+                <td><input type="date" name="" id="toDate"></td>
+            </tr>
+            <tr>
+                <td> <button id="calculateBtn" style="margin-top: 30px;font-size: x-large;">calculate Interval</button></td>
+            </tr>
+        </table>
+
+        <p>Date interval between <span id="fromDateDisplay"></span>and <span id="toDateDisplay"></span></p>
+        <p>In years: <span id="years"></span></p>
+        <p>In months: <span id="months"></span></p>
+        <p>In weeks: <span id="weeks"></span></p>
+        <p>In days: <span id="days"></span></p>
+
+
+        <script>
+            $(document).ready(function () {
+                $("#calculateBtn").click(function () {
+                    var fromDate = new Date($("#fromDate").val());
+                    var toDate = new Date($("#toDate").val());
+
+                    var counting = toDate - fromDate;
+
+                    var years = Math.floor(counting / (365.25 * 24 * 60  * 60 * 1000));
+                    var months = Math.floor(counting / (30.44 * 24 * 60 * 60 * 1000));
+                    var weeks = Math.floor(counting / (7 * 24 * 60 * 60 * 1000));
+                    var days = Math.floor(counting / (24 * 60 * 60 * 1000));
+
+                    $("#years").text(years);
+                    $("#months").text(months);
+                    $("#weeks").text(weeks);
+                    $("#days").text(days)
+
+                    $("#fromDateDisplay").text($("#fromDate").val());
+                    $("#toDateDisplay").text($("#toDate").val());
+                })
+            })
+        </script>
+    </div>
+</body>
+
+</html>
