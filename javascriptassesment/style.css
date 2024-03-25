@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:aqua;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: red;
+    color:whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#ok{
+    background-color: blue;
+    color: black;
+}
+#username{
+    background-color:greenyellow;
+    color: whitesmoke;
+} 
+#Email{
+    background-color:greenyellow;
+    color: whitesmoke;
+}
+#Mobile{
+    background-color:greenyellow;
+    color: whitesmoke;
+}
+#null-pepole{
+    background-color:greenyellow;
+    color: whitesmoke;
+}
+#booking-type{
+    background-color:greenyellow;
+    color: whitesmoke;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+

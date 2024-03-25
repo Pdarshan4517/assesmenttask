@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="resturent-booking.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <form id="booking">
+            <table id="booking-box">
+                <tr>
+                    <td colspan="2">
+                        <h1>Resturent Booking Form</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="booking-type" >Details of Booking:</label></td>
+                    <td>
+                        <select id="booking-type" onchange="showBookingOption()">
+                            <option value="" disabled selected>-- please select---</option>
+                            <option value="full-day">Full Day Booking</option>
+                            <option value="half-day">Half Day Booking</option>
+                            <option value="hourly">Hourly Booking</option>
+                        </select>
+                    </td>
+                <tr id="name-box">
+                    <td><label for="">User Name:</label></td>
+                    <td><input type="text" name="" id="username" required placeholder="Enter Your Name"></td>
+                </tr>
+                <tr id="mobile-box">
+                    <td><label for="">Mobile:</label></td>
+                    <td><input type="te" name="" id="Mobile" placeholder="Enter Your Mobile" required></td>
+                </tr>
+                <tr id="email-box">
+                    <td><label for="">Email:</label></td>
+                    <td><input type="email " name="" id="Email" placeholder="Enter Your Email" required></td>
+                </tr>
+                <tr id="person-box">
+                    <td><label for="">Number Of Pepole:</label></td>
+                    <td><input type="number" name="" id="null-pepole" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="booking-options"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="" id="ok"></td>
+                </tr>
+                
+            </table>
+            <div id="booking-box"></div>
+        </form>
+    </section>
+</body>
+
+</html>
